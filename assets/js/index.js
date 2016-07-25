@@ -31,7 +31,7 @@ var poke = {
 			this.markers.push(m);
 			this.poly.push(e.latLng);
 
-			var str = '';
+			var str = '<?xml version="1.0" encoding="UTF-8" standalone="no"?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="herpderp.com">';
 
 			this.poly.forEach(function(el, i){
 				if (this.poly.length > 1){
@@ -73,6 +73,8 @@ var poke = {
 
 			}.bind(this));
 
+			str += '</gpx>';
+			
 			this.textBox.value = str;
 
 			// console.log(polyline);

@@ -40,33 +40,13 @@ You'll probably have to click "fix issue" and login to your apple account to get
 
 If you have a blank app now running on your iOS device, congratulations, the hard part is done.
 
-Create a file on your computer, and add this:
-
-
-`<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<gpx
-    xmlns="http://www.topografix.com/GPX/1/1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
-    version="1.1"
-    creator="herpderp.com">
-
-    <!-- important stuff here -->
-
-
-
-    <!-- end important stuff -->
-
-
-</gpx>`
-
-Save it somewhere, and call it <whatever>.gpx
+Create a file on your computer, Save it somewhere, and call it <whatever>.gpx
 
 Create a route. You don't need to worry about speeds and stuff, this calculates times based on you walking at AROUND 12km/h - which seems to be quite close to the "too fast to count towards eggs" speed.
 
 Make sure the ends link up to stop any crazy running between start/end points.
 
-Copy and paste the stuff in the box on the bottom left of the webapp into your gpx file (between the things that say "important stuff here") and save it!
+Copy and paste the stuff in the box on the bottom left of the webapp into your gpx file and save it!
 
 Click the little GPS arrow... thing in xcode, and then click "Add GPX file to project".
 
@@ -88,7 +68,7 @@ I'm not sure what causes xcode to stop running, it seems to be pretty random. I'
 
 ##IF YOU DO GET SOFT BANNED
 
-It normally lasts somewhere between 10 and 30 minutes. It only seems to happen when you interact with the game (e.g catch a pokemon, spin a stop) and then warp somewhere else and try to do the same.
+In my experience, it normally lasts somewhere between 10 and 30 minutes. It only seems to happen when you interact with the game (e.g catch a pokemon, spin a stop) and then warp somewhere else and try to do the same.
 
 Obviously, YMMV.
 
